@@ -1,0 +1,24 @@
+{
+    "name": "geekhub2015/Homeworc-5",
+    "description": "Geometry",
+    "authors": [
+        {
+            "name": "Vladimir Goncharenko",
+            "email": "kragen1988@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.5.0",
+        "ext-mysqlnd": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit":"5.0.*"
+    },
+    "autoload": {
+        "psr-4": { "": "src/" }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
