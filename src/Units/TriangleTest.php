@@ -21,6 +21,7 @@ class TriangleTest extends PHPUnit_Framework_TestCase
         $this->assertEquals($ex, $tri->calcPerimeterFigure());
     }
 
+
     /**
      * @param $ex
      * @param $a
